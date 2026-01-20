@@ -1,0 +1,19 @@
+body {
+    font-style: normal;
+    margin: 20px;
+}
+h1 {
+    color: blue;
+}
+ul > li {
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+ul ul ul {
+    font-weight: normal;
+    color: black;
+    margin-left: 20px;
+    list-style-type: disc;
+}
