@@ -1,0 +1,30 @@
+body {
+    background-color:white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color:yellow;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    color: blue;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.navbar a :hover {
+    background-color: rgb(0, 55, 255);
+    color: rgb(0, 255, 72);
+}
+.navbar span {
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./"
+</head>
+<body>
+<h1>Registration Form</h1>
+
+<form action="#" method="post" enctype="multipart/form-data">
+<fieldset>
+<legend>Personal Details</legend>
+
+<div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+</div>
+
+<div class="form-group" id="address">
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address">
+</div>
+
+<div class="form-group" id="phone">
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone">
+</div>
+
+<div class="form-group" id="gender">
+    <label>Gender</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+</div>
+
+<div class="form-group" id="country">
+    <label for="country">Country</label>
+    <select name="country" id="country">
+        <option value="">Select Country</option>
+        <option>Nepal</option>
+        <option>India</option>
+        <option>Bhutan</option>
+    </select>
+</div>
+
+<div class="form-group" id="message">
+    <label for="message">Message</label>
+    <textarea name="message" id="message"></textarea>
+</div>
+
+<div class="form-group term" id="terms">
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">I accept term & Condition <a href="#"> </a></label>
+</div>
+
+<div class="form-group" id="image">
+    <label for="image">Image</label>
+    <input type="file" name="image">
+</div>
+
+<div class="form-group btn" id="lastButton">
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+</div>
+
+</fieldset>
+</form>
+
+</body>
+</html>
+    
+</body>
+</html>
