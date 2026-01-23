@@ -54,7 +54,20 @@ body{
     margin: 3px;
     background-color: white;
 }
+/* Desktop view */
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
 
+.menu-toggle {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* Mobile view */
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -64,6 +77,8 @@ body{
         top: 60px;
         left: 0;
         background-color: blueviolet;
+        padding: 0;
+        margin: 0;
     }
 
     .menu li {
@@ -72,20 +87,11 @@ body{
     }
 
     .menu-toggle {
-        display: flex;
+        display: block;
     }
 
     .menu.active {
         display: flex;
     }
 }
-lab 17.js
-const mobileMenu document.getElementById('mobile-menu'));
-const menu document.queryselector('.menu');
-mobileMenu.addEventlistener('click',() )
-menu.classlist.toggle('active');
-}
-};
-
-
 
