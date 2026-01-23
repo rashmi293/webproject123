@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-color: plum;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+    background-color: lightblue;
+}
+
+input::placeholder {
+    color: black;
+    font-size: x-small;
+    font-family: cursive;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    margin-right: 0;
+}
+
+.gender-options input {
+    margin: 0;
+    padding: 0;
+}
+
+.terms {
+    margin: 10px;
+    margin-right: 0px;
+    color: black;
+    font-family: cursive;
+    font-size: x-small;
+    padding: 0;
+}
+
+.remember-me {
+    margin: 10px;
+    color: black;
+    font-family: cursive;
+    font-size: medium;
+}
+
+input[type="checkbox"] {
+    width: 5%;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: purple;
+}

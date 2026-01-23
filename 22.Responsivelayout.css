@@ -1,0 +1,90 @@
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    border: 5px solid black;
+}
+
+/* common styles */*{
+.header{
+    background: #ff7f7f;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.left{
+    background: #f7d65a;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.main{
+    background: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.right{
+    background: #b8e86f;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.footer{
+    background: #6ec1f2;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* ================= MOBILE ================= */
+/* Default (less than 600px) */
+.content{
+    display: block;
+}
+
+/* ================= TABLET ================= */
+@media (min-width: 600px) and (max-width: 991px){
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+    .left,
+    .right{
+        width: 50%;
+    }
+}
+
+/* ================= DESKTOP ================= */
+@media (min-width: 992px){
+    .content{
+        display: flex;
+    }
+
+    .left{
+        width: 20%;
+    }
+
+    .main{
+        width: 60%;
+    }
+
+    .right{
+        width: 20%;
+    }
+}

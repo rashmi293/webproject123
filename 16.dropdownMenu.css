@@ -1,0 +1,31 @@
+.menu {
+background-color: aqua;
+padding: 10px;
+}
+.menu a {
+    color: blueviolet;
+    text-decoration: none;
+    padding: 10px;display: inline;
+}
+.dropdown {
+    position: relative;
+    display: block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: bisque;
+min-width: 200px;
+}
+.dropdown-content a{
+    color: purple
+    padding:8px;
+    display: block;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.menu a:hover {
+    background-color: darkblue;
+}
